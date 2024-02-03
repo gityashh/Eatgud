@@ -1,0 +1,130 @@
+@font-face {
+    font-family: plain-light;
+    src: url(./plain-light-webfont.woff);
+}
+@font-face {
+    font-family: plain-regular;
+    src: url(./plain-regular-webfont.woff);
+}
+@font-face {
+    font-family: silkSerifLight;
+    src: url(./silkserif-lightitalic-webfont.woff);
+}
+@font-face {
+    font-family: silkSerifReg;
+    src: url(./silkserif-regularitalic-webfont.woff);
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#main{
+    width: 100%;
+    position: relative;
+    background-color: #F3F0EA;
+}
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+nav{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 2vw;
+    position: fixed;
+    color: #fff;
+    z-index: 99;
+    background-image: linear-gradient(rgba(0,0,0,0.5),transparent);
+}
+#leftNav{
+    height: 100%;
+}
+#leftNav img{
+    height: 18vw;
+    transform: translate(-20%,-35%);
+}
+
+#rightNav{
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 4vh;
+    justify-content: space-between;
+    gap: 4vw;
+}
+#rightNav h3{
+    font-size: 1.1vw;
+     font-family:  plain-light;
+     font-weight: 200;
+}
+
+#img-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+}
+#img-container img{
+    height: 100%;
+    width: 100vw;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+#page1content{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    padding-left: 10vw;
+    z-index: 80;
+}
+#page1content h1{
+    font-size: 10vw;
+    font-family: plain-light;
+    color: #fff;
+    font-weight: 900;
+}
+#page1content h4{
+    font-size: 4vw;
+    font-family: plain-light;
+    color: #fff;
+    font-weight: 100;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+#leftpage2{
+    height: 100%;
+    width: 50%;
+    padding-top: 20vh;
+    padding-left: 100px;
+}
+#leftpage2 img{
+    height: 50vh;
+    object-fit: cover;
+}
+#img2-2{
+    height: 30vh !important;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
