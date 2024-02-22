@@ -34,7 +34,7 @@ gsap.to("#cardimg",{
     scrollTrigger:{
         scroller:"#main",
         trigger:"#page3",
-        start:"top 70%",
+        start:"top 90%",
         end:"top -100%",
         scrub:1
     }
