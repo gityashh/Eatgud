@@ -40,32 +40,6 @@ gsap.to("#cardimg",{
     }
 })
 
-document.querySelector("#menuopen").addEventListener("click",function () {
-    gsap.to("#sidenav",{
-        x:"40vw",
-        duration:0.8,
-        ease:"expo.out"
-    })
-    gsap.to("#page1content",{
-        filter: 'blur(10px)',
-        duration:0.8,
-        ease:"expo.out"
-    })
-})
-
-document.querySelector("#crossi").addEventListener("click",function () {    
-    gsap.to("#sidenav",{
-        x:"0vw",
-        duration:0.8,
-        ease:"expo.out",
-    })
-    gsap.to("#page1content",{
-        filter: 'blur(0px)',
-        duration:0.8,
-        ease:"expo.out",
-    })
-})
-
 function clutter(elem) {
   var clutter = ''
   elem.textContent.split("").forEach(element => {
